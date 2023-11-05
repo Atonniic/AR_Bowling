@@ -8,7 +8,16 @@ public class RefreshScene : MonoBehaviour
 
     public void onRefreshButtonClicked()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(1);
     }
 
+    public void onCustomizeButtonClicked()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void onHomeuttonClicked()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
