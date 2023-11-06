@@ -11,7 +11,7 @@ public class RefreshScene : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void onCustomizeButtonClicked()
+    public void onKnowledgeButtonClicked()
     {
         SceneManager.LoadScene(2);
     }
